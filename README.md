@@ -18,17 +18,19 @@
 - **Protein Variant:** p.Asp244Gly (D244G)
 - **ClinVar Variation ID:** 183021
 - **ClinVar Accession:** VCV000183021.10
+- **Date Accessed:** October 28, 2026
 
 ## 2. Research Question
 
-How does the CASQ1 protein contribute to skeletal muscle function, and what evidence suggests that the p.Asp244Gly (D244G) variant may affect calcium handling and muscle integrity?
+How does CASQ1 contribute to skeletal muscle function, and what evidence suggests that the p.Asp244Gly (D244G) variant may affect calcium handling and muscle integrity?
+
 ## 3. Objectives
 
-1. Retrieve the human CASQ1 protein sequence from NCBI using R.
-2. Calculate the protein length and amino-acid composition.
-3. Generate figures showing amino-acid composition and the variant's position.
+1. Retrieve the human CASQ1 reference protein sequence from NCBI using R.
+2. Calculate protein length and amino-acid composition.
+3. Generate figures showing amino-acid composition and variant position.
 4. Review the ClinVar classification and published evidence for the assigned variant.
-5. Discuss the possible molecular consequences of the variant and identify limitations of the analysis.
+5. Explain the possible molecular consequences of the variant, including limitations and future validation.
 
 ## 4. Methods and Reproducibility
 
@@ -42,54 +44,56 @@ install.packages(c("rentrez", "ggplot2"))
 
 The `rentrez` package supports access to NCBI records, while `ggplot2` is used to create figures.
 
-### Step 2: Retrieve the reference protein
+### Step 2: Retrieve the CASQ1 protein sequence
 
-Run the provided `analysis.R` script to retrieve the CASQ1 protein sequence associated with NP_001222.3 and save the FASTA file in `data/CASQ1_protein.fasta`.
+Run `analysis.R` to retrieve the CASQ1 reference protein associated with accession NP_001222.3. The sequence is saved as:
+
+`data/CASQ1_protein.fasta`
 
 ### Step 3: Calculate protein characteristics
 
-The script calculates protein length and amino-acid counts and percentages. The results are saved in the `results/` directory, including `amino_acid_composition.csv` and the protein summary files.
+The script calculates protein length and amino-acid counts and percentages. Results are saved in the `results/` directory, including `amino_acid_composition.csv` and the protein summary files.
 
 ### Step 4: Generate figures
 
-The script generates the following figures:
+The script generates two figures:
 
 - `figures/01_amino_acid_composition.png`
 - `figures/02_variant_position.png`
 
-The first figure presents amino-acid composition. The second marks residue 244 on the 396-amino-acid protein.
+Figure 1 displays amino-acid composition. Figure 2 shows the location of residue 244 within the 396-amino-acid reference protein.
 
-### Step 5: Review variant evidence
+### Step 5: Review the assigned variant
 
-The assigned variant was reviewed using ClinVar and published literature. The reference transcript and protein accessions were retained to maintain consistency with the assigned variant.
+The variant was reviewed using ClinVar and published literature. The assigned transcript and variant were retained to maintain consistency with the laboratory instructions.
 
 ### Step 6: Reproduce the analysis
 
 1. Install R and RStudio.
-2. Install the packages listed above.
+2. Install the required packages.
 3. Download or clone this repository.
-4. Set the working directory to the project folder.
+4. Open the project directory as the working directory.
 5. Run the complete script:
 
 ```r
 source("analysis.R")
 ```
 
-Alternatively, from a terminal opened in the project directory, run:
+Alternatively, run this command in a terminal opened in the project directory:
 
 ```bash
 Rscript analysis.R
 ```
 
-If an NCBI request fails temporarily, retry the failed step rather than changing the assigned gene or variant.
-
-**Note:** These commands assume the script and folder structure are unchanged. The script should be rerun from the project root so that its relative output paths resolve correctly.
+These commands assume the script and folder structure remain unchanged. Run the script from the project root so relative output paths resolve correctly. If an NCBI request fails temporarily, retry the failed step rather than changing the assigned gene or variant.
 
 ## 5. Results
 
-### Protein sequence and composition
+### 5.1 Protein length and amino-acid composition
 
-The reference protein NP_001222.3 contains 396 amino acids. The three most abundant amino acids in the retrieved sequence were:
+The retrieved CASQ1 reference protein NP_001222.3 contains 396 amino acids.
+
+The three most abundant amino acids were:
 
 | Amino acid | Count | Percentage |
 |---|---:|---:|
@@ -97,61 +101,70 @@ The reference protein NP_001222.3 contains 396 amino acids. The three most abund
 | Aspartic acid (D) | 48 | 12.12% |
 | Leucine (L) | 40 | 10.10% |
 
-These values describe the composition of the reference protein sequence.
+These results describe the amino-acid composition of the reference sequence. They do not directly measure protein activity, three-dimensional structure, calcium-binding ability, or the effect of a mutation.
 
-### Figures
-
-**Figure 1. Amino-acid composition**
+### 5.2 Figure 1: Amino-acid composition
 
 ![CASQ1 amino-acid composition](figures/01_amino_acid_composition.png)
 
-**Figure 2. Position of the D244G variant**
+The bar plot displays the distribution of amino acids in the CASQ1 reference protein. Glutamic acid is the most abundant amino acid in the analyzed sequence.
+
+### 5.3 Figure 2: Variant position
 
 ![CASQ1 variant position](figures/02_variant_position.png)
 
-The second figure marks the variant position but does not independently demonstrate a structural change or functional effect.
+The second figure marks the p.Asp244Gly (D244G) variant at amino-acid position 244 in the 396-amino-acid reference protein. The marker identifies the sequence location and does not independently prove a structural or functional effect.
 
-### Generated files
+### 5.4 Generated files
 
+**Data**
 - `data/CASQ1_protein.fasta` — retrieved protein sequence.
+
+**Results**
 - `results/amino_acid_composition.csv` — amino-acid counts and percentages.
+- `results/clinvar_variant_notes.txt` — ClinVar classification and evidence notes.
 - `results/gene_summary.txt` — gene summary and retrieved NCBI record information.
 - `results/protein_accession.txt` — protein accession information.
 - `results/protein_length.txt` — protein length.
+- `results/source_and_accession_notes.txt` — source and accession notes.
 - `results/top_three_amino_acids.txt` — three most abundant amino acids.
 - `results/transcript_genbank_record.txt` — transcript record information.
-- `results/source_and_accession_notes.txt` — source and accession notes.
-- `results/clinvar_variant_notes.txt` — variant classification and evidence notes.
+
+**Figures**
+- `figures/01_amino_acid_composition.png`
+- `figures/02_variant_position.png`
 
 ## 6. Variant Interpretation
 
-The assigned variant is **CASQ1 NM_001231.5:c.731A>G, p.Asp244Gly**, recorded in ClinVar as Variation ID 183021. The current aggregate ClinVar classification checked on October 28, 2026, is **Pathogenic**, with a review status of criteria provided by multiple submitters with no conflicts among the submissions contributing to that classification.
+The assigned variant is **CASQ1 NM_001231.5:c.731A>G, p.Asp244Gly (D244G)**, recorded in ClinVar as Variation ID 183021.
 
-The substitution changes aspartic acid, an acidic amino acid, to glycine, a much smaller amino acid, at protein position 244. Published studies have reported altered CASQ1 polymerization, protein aggregation, and changes in sarcoplasmic-reticulum calcium release associated with this variant. These observations support a possible connection between altered calsequestrin-1 behavior and muscle dysfunction.
+When checked on October 28, 2026, ClinVar's aggregate classification was **Pathogenic**, with a review status of criteria provided by multiple submitters and no conflicts among the submissions contributing to that classification.
 
-However, computational predictions have not been completely consistent. A pathogenic classification should be interpreted alongside experimental findings, clinical evidence, and the limitations of each type of evidence.
+The substitution replaces aspartic acid, an acidic amino acid, with glycine, a much smaller amino acid, at position 244. Published studies have reported altered CASQ1 polymerization, protein aggregation, and changes in sarcoplasmic-reticulum calcium release associated with this variant. These findings support a possible connection between altered calsequestrin-1 behavior and muscle dysfunction.
 
-## 7. Scientific Discussion (300–500 words)
+Computational predictions have not been completely consistent. Therefore, the classification should be interpreted alongside experimental findings, clinical evidence, and the limitations of each type of evidence.
 
-Calsequestrin-1, encoded by CASQ1, is an important calcium-binding protein found in the sarcoplasmic reticulum of skeletal muscle. It helps store calcium inside the sarcoplasmic reticulum so calcium can be released when a muscle fiber is stimulated. The release of calcium into the cytoplasm allows the contractile machinery to become active, while calcium reuptake helps the muscle relax. Therefore, changes affecting calsequestrin-1 may interfere with calcium regulation and normal muscle function.
+## 7. Scientific Discussion (300–500 Words)
 
-The reference CASQ1 protein analyzed in this project is NP_001222.3, which contains 396 amino acids. The amino-acid composition analysis identified glutamic acid as the most abundant amino acid, with 56 residues (14.14%), followed by aspartic acid with 48 residues (12.12%) and leucine with 40 residues (10.10%). These results describe the protein's composition but do not directly measure its three-dimensional structure, calcium-binding capacity, stability, or activity.
+Calsequestrin-1, encoded by CASQ1, is an important calcium-binding protein found in the sarcoplasmic reticulum of skeletal muscle. It helps store calcium inside the sarcoplasmic reticulum so calcium can be released when a muscle fiber is stimulated. Calcium release activates the contractile machinery, while calcium reuptake helps the muscle relax. Changes affecting calsequestrin-1 may therefore interfere with calcium regulation and normal muscle function.
 
-The assigned variant, NM_001231.5:c.731A>G (p.Asp244Gly), replaces aspartic acid with glycine at amino-acid position 244. ClinVar's aggregate classification was Pathogenic when checked on October 28, 2026. Published studies have reported altered CASQ1 polymerization, the formation of larger protein aggregates, and changes in calcium release associated with this variant. Such findings provide a possible mechanism through which abnormal calsequestrin-1 behavior could disturb calcium handling and contribute to muscle disease. Clinical reports provide additional evidence of an association between CASQ1 variants and myopathy.
+The reference CASQ1 protein analyzed in this project is NP_001222.3 and contains 396 amino acids. The amino-acid composition analysis identified glutamic acid as the most abundant amino acid, with 56 residues (14.14%), followed by aspartic acid with 48 residues (12.12%) and leucine with 40 residues (10.10%). These results describe the composition of the reference protein but do not directly measure its three-dimensional structure, calcium-binding capacity, stability, or biological activity.
 
-Nevertheless, these findings must be interpreted carefully. A clinical association does not establish every molecular step leading to disease, and computational predictions are not fully consistent for this variant. The amino-acid composition chart and variant-position plot are descriptive analyses; neither directly demonstrates a structural defect or proves that the substitution causes the observed clinical features. The pathogenic classification reflects the available submitted evidence, not the result of experiments performed in this project.
+The assigned variant, NM_001231.5:c.731A>G (p.Asp244Gly), replaces aspartic acid with glycine at amino-acid position 244. ClinVar's aggregate classification was Pathogenic when checked on October 28, 2026. Published studies have reported altered CASQ1 polymerization, formation of larger protein aggregates, and changes in calcium release associated with this variant. These observations suggest a possible mechanism through which abnormal calsequestrin-1 behavior could disturb calcium handling and contribute to muscle disease. Clinical reports provide additional evidence of an association between CASQ1 variants and myopathy.
 
-A useful follow-up experiment would compare normal and D244G calsequestrin-1 under controlled laboratory conditions. Protein polymerization and aggregation could be measured, while calcium-release assays in an appropriate muscle-cell model could test whether the variant changes calcium handling. Structural analysis using a suitable experimental or predicted protein model could also help examine the local environment around residue 244. Together, these approaches would help connect the sequence change to protein behavior and muscle function more directly.
+Nevertheless, the evidence must be interpreted carefully. A clinical association does not establish every molecular step leading to disease, and computational predictions have not been fully consistent for this variant. The amino-acid composition chart and variant-position plot are descriptive analyses; neither directly demonstrates a structural defect or proves that the substitution causes particular clinical features. The pathogenic classification reflects the available submitted evidence, not experiments performed in this project.
+
+A useful follow-up experiment would compare normal and D244G calsequestrin-1 under controlled conditions. Protein polymerization and aggregation could be measured, while calcium-release assays in an appropriate muscle-cell model could test whether the variant changes calcium handling. Structural analysis using a suitable experimental or predicted protein model could also examine the environment around residue 244. Together, these approaches would help connect the sequence change to protein behavior and muscle function more directly.
 
 ## 8. Limitations and Proposed Validation
 
-- The analysis describes a reference protein sequence and its amino-acid composition; it does not measure protein expression or biological activity.
+- This project analyzes a reference sequence and its amino-acid composition; it does not directly measure protein expression or activity.
 - The variant-position plot identifies residue 244 but does not prove a structural or functional effect.
 - ClinVar classifications and supporting evidence may change over time.
 - Computational predictions may disagree and should not be treated as experimental proof.
-- The structural environment around residue 244 has not been established by the two figures included here.
+- A dedicated structural or functional-domain analysis is not represented by the two current figures.
 
-**Proposed validation:** Compare wild-type and D244G CASQ1 using protein polymerization or aggregation assays and a suitable calcium-release assay. If possible, add an annotated protein structure or functional-domain figure showing residue 244 and relevant structural context.
+**Proposed validation:** Compare wild-type and D244G CASQ1 using protein polymerization or aggregation assays and a suitable calcium-release assay. A complementary structural analysis could examine residue 244 and its surrounding environment using an appropriate experimental or predicted protein model.
 
 ## 9. References and Data Sources
 
@@ -184,6 +197,9 @@ A useful follow-up experiment would compare normal and D244G calsequestrin-1 und
 
 10. **AlphaFold Protein Structure Database.**  
     https://alphafold.ebi.ac.uk/
+
+11. **rentrez documentation.**  
+    https://docs.ropensci.org/rentrez/
 
 **Database access date:** October 28, 2026.
 
