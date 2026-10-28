@@ -90,9 +90,16 @@ Before running `analysis.R`, open the repository root as the working directory i
 
 ## 9. References
 
-1. NCBI Gene: CASQ1. https://www.ncbi.nlm.nih.gov/gene/844/
-2. NCBI ClinVar: CASQ1 variant, Variation ID 183021. https://www.ncbi.nlm.nih.gov/clinvar/variation/183021/
-3. NCBI Nucleotide: NM_001231.5. https://www.ncbi.nlm.nih.gov/nuccore/NM_001231.5
-4. NCBI Protein: NP_001222.3. https://www.ncbi.nlm.nih.gov/protein/NP_001222.3
+1. National Center for Biotechnology Information (NCBI). **CASQ1 calsequestrin 1 [Homo sapiens].** NCBI Gene. https://www.ncbi.nlm.nih.gov/gene/844/
 
-Additional research articles used for interpretation should be listed here with their full bibliographic details and links.
+2. National Center for Biotechnology Information (NCBI). **CASQ1 variant c.731A>G (p.Asp244Gly), Variation ID 183021.** ClinVar. https://www.ncbi.nlm.nih.gov/clinvar/variation/183021/
+
+3. National Center for Biotechnology Information (NCBI). **NM_001231.5: CASQ1 transcript sequence.** NCBI Nucleotide. https://www.ncbi.nlm.nih.gov/nuccore/NM_001231.5
+
+4. National Center for Biotechnology Information (NCBI). **NP_001222.3: calsequestrin-1 protein sequence.** NCBI Protein. https://www.ncbi.nlm.nih.gov/protein/NP_001222.3
+
+5. Rossi, D., Vezzani, B., Galli, L., et al. (2014). A mutation in the CASQ1 gene causes a vacuolar myopathy with accumulation of sarcoplasmic reticulum protein aggregates. *Human Mutation, 35*(10), 1163–1170. https://doi.org/10.1002/humu.22631
+
+6. Lewis, K. M., Ronish, L. A., Ríos, E., & Kang, C. (2015). Characterization of two human skeletal calsequestrin mutants implicated in malignant hyperthermia and vacuolar aggregate myopathy. *Journal of Biological Chemistry, 290*(48), 28665–28674. https://doi.org/10.1074/jbc.M115.686261
+
+7. Di Blasi, C., Sansanelli, S., Ruggieri, A., et al. (2015). A CASQ1 founder mutation in three Italian families with protein aggregate myopathy and hyperCKaemia. *Journal of Medical Genetics, 52*(9), 617–626. https://doi.org/10.1136/jmedgenet-2014-102882
