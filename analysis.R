@@ -32,21 +32,20 @@ clinvar_id <- "183021"
 variant_protein <- "p.Asp244Gly"
 variant_position <- 244
 
+
 # CREATE PROJECT FOLDERS
-project_folder <- "Muscle_Contractility_CASQ1"
+# Run analysis.R from the repository root.
 
-dir.create(project_folder, showWarnings = FALSE)
-dir.create(file.path(project_folder, "data"),
-           showWarnings = FALSE)
-dir.create(file.path(project_folder, "results"),
-           showWarnings = FALSE)
-dir.create(file.path(project_folder, "figures"),
-           showWarnings = FALSE)
+required_folders <- c("data", "results", "figures")
 
-# Use the project folder for all output files
-setwd(project_folder)
+for (folder in required_folders) {
+  if (!dir.exists(folder)) {
+    dir.create(folder, recursive = TRUE)
+  }
+}
 
 cat("Project folders are ready.\n")
+
 
 
 # STEP 2. RETRIEVE THE NCBI GENE RECORD
