@@ -1,0 +1,4 @@
+ Amino_Acid Count Percentage
+          E    56      14.14
+          D    48      12.12
+          L    40      10.10

@@ -1,0 +1,4 @@
+Gene: CASQ1
+Transcript: NM_001231.5
+Protein accession: NP_001222.3
+Protein length: 396 amino acids

@@ -1,0 +1,4 @@
+Gene: CASQ1
+Transcript: NM_001231.5
+Protein accession: NP_001222.3
+NCBI Protein URL: https://www.ncbi.nlm.nih.gov/protein/NP_001222.3

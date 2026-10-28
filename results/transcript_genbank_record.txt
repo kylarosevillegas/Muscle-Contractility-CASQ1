@@ -1,0 +1,304 @@
+LOCUS       NM_001231               1878 bp    mRNA    linear   PRI 24-JUN-2025
+DEFINITION  Homo sapiens calsequestrin 1 (CASQ1), mRNA.
+ACCESSION   NM_001231
+VERSION     NM_001231.5
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 1878)
+  AUTHORS   Wyckelsma,V.L., Venckunas,T., Houweling,P.J., Schlittler,M.,
+            Lauschke,V.M., Tiong,C.F., Wood,H.D., Ivarsson,N., Paulauskas,H.,
+            Eimantas,N., Andersson,D.C., North,K.N., Brazaitis,M. and
+            Westerblad,H.
+  TITLE     Loss of alpha-actinin-3 during human evolution provides superior
+            cold resilience and muscle heat generation
+  JOURNAL   Am J Hum Genet 108 (3), 446-457 (2021)
+   PUBMED   33600773
+REFERENCE   2  (bases 1 to 1878)
+  AUTHORS   Luck,K., Kim,D.K., Lambourne,L., Spirohn,K., Begg,B.E., Bian,W.,
+            Brignall,R., Cafarelli,T., Campos-Laborie,F.J., Charloteaux,B.,
+            Choi,D., Cote,A.G., Daley,M., Deimling,S., Desbuleux,A., Dricot,A.,
+            Gebbia,M., Hardy,M.F., Kishore,N., Knapp,J.J., Kovacs,I.A.,
+            Lemmens,I., Mee,M.W., Mellor,J.C., Pollis,C., Pons,C.,
+            Richardson,A.D., Schlabach,S., Teeking,B., Yadav,A., Babor,M.,
+            Balcha,D., Basha,O., Bowman-Colin,C., Chin,S.F., Choi,S.G.,
+            Colabella,C., Coppin,G., D'Amata,C., De Ridder,D., De Rouck,S.,
+            Duran-Frigola,M., Ennajdaoui,H., Goebels,F., Goehring,L., Gopal,A.,
+            Haddad,G., Hatchi,E., Helmy,M., Jacob,Y., Kassa,Y., Landini,S.,
+            Li,R., van Lieshout,N., MacWilliams,A., Markey,D., Paulson,J.N.,
+            Rangarajan,S., Rasla,J., Rayhan,A., Rolland,T., San-Miguel,A.,
+            Shen,Y., Sheykhkarimli,D., Sheynkman,G.M., Simonovsky,E., Tasan,M.,
+            Tejeda,A., Tropepe,V., Twizere,J.C., Wang,Y., Weatheritt,R.J.,
+            Weile,J., Xia,Y., Yang,X., Yeger-Lotem,E., Zhong,Q., Aloy,P.,
+            Bader,G.D., De Las Rivas,J., Gaudet,S., Hao,T., Rak,J.,
+            Tavernier,J., Hill,D.E., Vidal,M., Roth,F.P. and Calderwood,M.A.
+  TITLE     A reference map of the human binary protein interactome
+  JOURNAL   Nature 580 (7803), 402-408 (2020)
+   PUBMED   32296183
+REFERENCE   3  (bases 1 to 1878)
+  AUTHORS   Semplicini,C., Bertolin,C., Bello,L., Pantic,B., Guidolin,F.,
+            Vianello,S., Catapano,F., Colombo,I., Moggio,M., Gavassini,B.F.,
+            Cenacchi,G., Papa,V., Previtero,M., Calore,C., Soraru,G.,
+            Minervini,G., Tosatto,S.C.E., Stramare,R. and Pegoraro,E.
+  TITLE     The clinical spectrum of CASQ1-related myopathy
+  JOURNAL   Neurology 91 (17), e1629-e1641 (2018)
+   PUBMED   30258016
+  REMARK    GeneRIF: This study showed that twenty-two CASQ1-mutated patients
+            (12 families) were identified, 21 sharing the previously described
+            founder mutation (p.Asp244Gly) and 1 with the p.Gly103Asp mutation.
+REFERENCE   4  (bases 1 to 1878)
+  AUTHORS   Barone,V., Del Re,V., Gamberucci,A., Polverino,V., Galli,L.,
+            Rossi,D., Costanzi,E., Toniolo,L., Berti,G., Malandrini,A.,
+            Ricci,G., Siciliano,G., Vattemi,G., Tomelleri,G., Pierantozzi,E.,
+            Spinozzi,S., Volpi,N., Fulceri,R., Battistutta,R., Reggiani,C. and
+            Sorrentino,V.
+  TITLE     Identification and characterization of three novel mutations in the
+            CASQ1 gene in four patients with tubular aggregate myopathy
+  JOURNAL   Hum Mutat 38 (12), 1761-1773 (2017)
+   PUBMED   28895244
+  REMARK    GeneRIF: These results widen the spectrum of skeletal muscle
+            diseases associated with CASQ1 and indicate that these mutations
+            affect properties critical for correct Ca(2+) handling in skeletal
+            muscle fibers.
+REFERENCE   5  (bases 1 to 1878)
+  AUTHORS   D'Adamo,M.C., Sforna,L., Visentin,S., Grottesi,A., Servettini,L.,
+            Guglielmi,L., Macchioni,L., Saredi,S., Curcio,M., De Nuccio,C.,
+            Hasan,S., Corazzi,L., Franciolini,F., Mora,M., Catacuzzeno,L. and
+            Pessia,M.
+  TITLE     A Calsequestrin-1 Mutation Associated with a Skeletal Muscle
+            Disease Alters Sarcoplasmic Ca2+ Release
+  JOURNAL   PLoS One 11 (5), e0155516 (2016)
+   PUBMED   27196359
+  REMARK    GeneRIF: the p.D244G variant in CASQ1 is associated with a skeletal
+            muscle disease and alters sarcoplasmic calcium release
+REFERENCE   6  (bases 1 to 1878)
+  AUTHORS   Lestienne,P., Bataille,N. and Lucas-Heron,B.
+  TITLE     Role of the mitochondrial DNA and calmitine in myopathies
+  JOURNAL   Biochim Biophys Acta 1271 (1), 159-163 (1995)
+   PUBMED   7599203
+  REMARK    Review article
+REFERENCE   7  (bases 1 to 1878)
+  AUTHORS   Lucas-Heron,B.
+  TITLE     Muscular degeneration in Duchenne's dystrophy may be caused by a
+            mitochondrial defect
+  JOURNAL   Med Hypotheses 44 (4), 298-300 (1995)
+   PUBMED   7666833
+REFERENCE   8  (bases 1 to 1878)
+  AUTHORS   Bataille,N., Schmitt,N., Aumercier-Maes,P., Ollivier,B.,
+            Lucas-Heron,B. and Lestienne,P.
+  TITLE     Molecular cloning of human calmitine, a mitochondrial calcium
+            binding protein, reveals identity with calsequestrine
+  JOURNAL   Biochem Biophys Res Commun 203 (3), 1477-1482 (1994)
+   PUBMED   7945294
+REFERENCE   9  (bases 1 to 1878)
+  AUTHORS   Otsu,K., Fujii,J., Periasamy,M., Difilippantonio,M., Uppender,M.,
+            Ward,D.C. and MacLennan,D.H.
+  TITLE     Chromosome mapping of five human cardiac and skeletal muscle
+            sarcoplasmic reticulum protein genes
+  JOURNAL   Genomics 17 (2), 507-509 (1993)
+   PUBMED   8406504
+REFERENCE   10 (bases 1 to 1878)
+  AUTHORS   Fujii,J., Willard,H.F. and MacLennan,D.H.
+  TITLE     Characterization and localization to human chromosome 1 of human
+            fast-twitch skeletal muscle calsequestrin gene
+  JOURNAL   Somat Cell Mol Genet 16 (2), 185-189 (1990)
+   PUBMED   2321095
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from DA766051.1, BC022289.1 and
+            AA197256.1.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            On Nov 22, 2018 this sequence version replaced NM_001231.4.
+            
+            Summary: This gene encodes the skeletal muscle specific member of
+            the calsequestrin protein family. Calsequestrin functions as a
+            luminal sarcoplasmic reticulum calcium sensor in both cardiac and
+            skeletal muscle cells. This protein, also known as calmitine,
+            functions as a calcium regulator in the mitochondria of skeletal
+            muscle. This protein is absent in patients with Duchenne and Becker
+            types of muscular dystrophy. [provided by RefSeq, Jun 2013].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC022289.1, S73775.1 [ECO:0000332]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            gene product(s) localized to mito. :: inferred from homology
+            MANE Ensembl match                 :: ENST00000368078.8/
+                                                  ENSP00000357057.3
+            RefSeq Select criteria             :: based on single
+                                                  protein-coding transcript
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-34                DA766051.1         81-114
+            35-1871             BC022289.1         1-1837
+            1872-1878           AA197256.1         36-42               c
+FEATURES             Location/Qualifiers
+     source          1..1878
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="1"
+                     /map="1q23.2"
+     gene            1..1878
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /note="calsequestrin 1"
+                     /db_xref="GeneID:844"
+                     /db_xref="HGNC:HGNC:1512"
+                     /db_xref="MIM:114250"
+     exon            1..456
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    82..84
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /note="upstream in-frame stop codon"
+     CDS             178..1368
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /note="calmitine; calsequestrin 1 (fast-twitch, skeletal
+                     muscle)"
+                     /codon_start=1
+                     /product="calsequestrin-1 precursor"
+                     /protein_id="NP_001222.3"
+                     /db_xref="CCDS:CCDS1198.2"
+                     /db_xref="GeneID:844"
+                     /db_xref="HGNC:HGNC:1512"
+                     /db_xref="MIM:114250"
+                     /translation="MSATDRMGPRAVPGLRLALLLLLVLGTPKSGVQGQEGLDFPEYD
+                     GVDRVINVNAKNYKNVFKKYEVLALLYHEPPEDDKASQRQFEMEELILELAAQVLEDK
+                     GVGFGLVDSEKDAAVAKKLGLTEVDSMYVFKGDEVIEYDGEFSADTIVEFLLDVLEDP
+                     VELIEGERELQAFENIEDEIKLIGYFKSKDSEHYKAFEDAAEEFHPYIPFFATFDSKV
+                     AKKLTLKLNEIDFYEAFMEEPVTIPDKPNSEEEIVNFVEEHRRSTLRKLKPESMYETW
+                     EDDMDGIHIVAFAEEADPDGFEFLETLKAVAQDNTENPDLSIIWIDPDDFPLLVPYWE
+                     KTFDIDLSAPQIGVVNVTDADSVWMEMDDEEDLPSAEELEDWLEDVLEGEINTEDDDD
+                     DDDD"
+     sig_peptide     178..279
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /inference="COORDINATES: ab initio prediction:SignalP:6.0"
+     misc_feature    304..306
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /note="Phosphotyrosine.
+                     /evidence=ECO:0000250|UniProtKB:P19633; propagated from
+                     UniProtKB/Swiss-Prot (P31415.3); phosphorylation site"
+     misc_feature    418..420
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P19633; propagated from
+                     UniProtKB/Swiss-Prot (P31415.3); phosphorylation site"
+     misc_feature    547..549
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0000250|UniProtKB:P19633; propagated from
+                     UniProtKB/Swiss-Prot (P31415.3); phosphorylation site"
+     misc_feature    823..825
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P19633; propagated from
+                     UniProtKB/Swiss-Prot (P31415.3); phosphorylation site"
+     misc_feature    1225..1227
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /note="N-linked (GlcNAc...) asparagine.
+                     /evidence=ECO:0000255; propagated from
+                     UniProtKB/Swiss-Prot (P31415.3); glycosylation site"
+     exon            457..541
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            542..642
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            643..754
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            755..828
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            829..959
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            960..1005
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1006..1060
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1061..1161
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1162..1236
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1237..1878
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      1853..1858
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /note="hexamer: AATAAA"
+     polyA_site      1878
+                     /gene="CASQ1"
+                     /gene_synonym="CASQ; CSQ1; PDIB1; VMCQA"
+                     /note="major polyA site"
+ORIGIN      
+        1 ggctctgtcg gcagtttctc caggacccag cagtgccctc tgtccactgc tctgggccat
+       61 tccccaatcc cccctcccac ttgagcccct aactcagaat ctgggaccca ggggcccctc
+      121 cctaccccag ctaacctctt ctggaccagg agagccaacc cagatcccac tacctccatg
+      181 agtgctacag acaggatggg gcccagagct gtgccgggtc tgcggctggc actgctgttg
+      241 ctgctggtgc tagggacacc caagtcaggg gtacaggggc aggaagggct ggacttccct
+      301 gagtacgatg gtgtggaccg tgtgatcaat gtcaatgcaa agaactacaa gaatgtgttc
+      361 aagaagtatg aggtgctggc actcctctac catgaacccc ccgaggatga caaggcctca
+      421 caaagacaat ttgagatgga ggagctgatc ctggagttag cagcccaagt cctagaagac
+      481 aagggtgttg gcttcgggct ggtagactct gagaaggatg cagctgtggc caagaaacta
+      541 ggcctaactg aagtggacag catgtatgta ttcaagggag atgaagtcat tgagtacgat
+      601 ggcgagtttt ctgctgacac catcgtggag tttctgcttg atgtcctaga ggaccctgtg
+      661 gaattgattg aaggtgaacg agagctgcag gcgtttgaga atattgagga tgagatcaaa
+      721 ctcattggct acttcaagag caaagactca gagcattaca aagccttcga ggatgcagct
+      781 gaggagtttc atccctacat ccccttcttc gccaccttcg acagcaaggt ggcaaagaag
+      841 ctgaccctga agctgaatga gattgatttc tacgaggcct tcatggaaga gcctgtgacc
+      901 atcccagaca agcccaatag cgaagaggag attgtcaact tcgtggagga gcacaggaga
+      961 tcaaccctga ggaaactgaa gccggagagt atgtatgaga cctgggagga tgatatggat
+     1021 ggaatccaca ttgtggcctt cgcagaggaa gctgatcctg atggtttcga gttcttagag
+     1081 actctcaagg ctgtggccca agataacact gaaaacccag atcttagcat catctggatt
+     1141 gaccctgatg acttccccct gctggtccca tactgggaga agacgtttga catcgacttg
+     1201 tcagccccac aaataggagt cgtcaatgtt actgatgcgg atagcgtatg gatggaaatg
+     1261 gacgatgagg aggacctgcc ttctgctgag gagctggagg actggctgga ggatgtcctg
+     1321 gagggcgaga tcaacacaga ggacgatgac gatgatgatg atgactagtt gctatggcaa
+     1381 ccatctttca gccccactgg tcttttcatg ctctctcctg ccttcccttg tccttccctg
+     1441 agttcctcca gggagactag gttattctct gccatagagc taactggggt ctatatgctg
+     1501 ggtgctgaga cactgatccc cctcatttga tgagcaaatg agctactttt ccctagacac
+     1561 caggccagct ctctcttatc tgacttctgt ttcttatccc ataacttact tgtatctatt
+     1621 atgtgtctct tccatcactc tccatactct ttcttgtgat tctcctctag ccatatatat
+     1681 gggccccatc tctgttctgt tccctccatc tatgcacagc tttcccccac tctctctaat
+     1741 cctgtatctt tctgactgtc ctgtccttgg ccagaaggaa gggagaatac tgtgtttggg
+     1801 actgtatctc agcaatcact tgttaatgta tttgggtcaa atgagaggcc tcaataaaga
+     1861 catctggggc agcatgaa
+//
+
+

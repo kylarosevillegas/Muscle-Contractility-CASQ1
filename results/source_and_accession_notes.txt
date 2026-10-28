@@ -1,0 +1,24 @@
+DATA SOURCES AND REPRODUCIBILITY
+Analysis date: 2026-10-28
+Gene: CASQ1
+NCBI Gene ID: 844
+Transcript: NM_001231.5
+Protein accession: NP_001222.3
+ClinVar Variation ID: 183021
+Variant: p.Asp244Gly
+
+NCBI Gene:
+https://www.ncbi.nlm.nih.gov/gene/844
+
+NCBI Transcript:
+https://www.ncbi.nlm.nih.gov/nuccore/NM_001231.5
+
+NCBI Protein:
+https://www.ncbi.nlm.nih.gov/protein/NP_001222.3
+
+ClinVar:
+https://www.ncbi.nlm.nih.gov/clinvar/variation/183021/
+
+Packages used: rentrez, ggplot2, httr
+Access dates and current ClinVar interpretation should be
+verified and documented in the README.

@@ -1,0 +1,43 @@
+# CLINVAR VARIANT NOTES
+
+**Gene:** CASQ1  
+**Transcript:** NM_001231.5  
+**DNA change:** c.731A>G  
+**Protein change:** p.Asp244Gly (D244G)  
+**Protein position:** 244  
+**ClinVar Variation ID:** 183021  
+**ClinVar accession:** VCV000183021.10  
+**ClinVar URL:** https://www.ncbi.nlm.nih.gov/clinvar/variation/183021/  
+**Date checked:** October 28, 2026
+
+**Current variant name:** NM_001231.5(CASQ1):c.731A>G (p.Asp244Gly)
+
+**Current aggregate classification:** Pathogenic. Two submissions contribute to this classification.
+
+**Review status / stars:** Criteria provided, multiple submitters, no conflicts (two-star review status).
+
+**Condition(s) listed:** Myopathy due to calsequestrin and SERCA1 protein overload. The record also lists a classification for which the condition is not provided.
+
+**Variant type:** Single-nucleotide variant; missense variant.
+
+**HGVS expression shown:**  
+- Transcript: NM_001231.5:c.731A>G  
+- Protein: NP_001222.3:p.Asp244Gly  
+- GRCh38 genomic: NC_000001.11:g.160195976A>G
+
+**Last evaluated date:** February 1, 2026, for the aggregate pathogenic classification. The condition-specific record for myopathy due to calsequestrin and SERCA1 protein overload was last evaluated June 1, 2022.
+
+**Publications / supporting evidence:**  
+- Rossi et al. (2014), PMID: 25116801  
+- Lewis et al. (2015), PMID: 26416891  
+- Di Blasi et al. (2015), PMID: 26136523  
+- D'Adamo et al. (2016), PMID: 27196359  
+- Semplicini et al. (2018), PMID: 30258016  
+- Hanna et al. (2021), PMID: 33786938  
+- Laurie et al. (2025), PMID: 39825153  
+
+**Conflicting submissions or limitations:**  
+ClinVar currently reports a pathogenic aggregate classification with no conflicts among the submissions contributing to it. However, computational predictions are not fully consistent. Some algorithms, including SIFT, PolyPhen-2, and Align-GVGD, have predicted that the variant may be tolerated. Experimental studies and reports of affected individuals provide additional evidence supporting a damaging effect. The available evidence should be interpreted as a whole rather than relying on computational predictions alone.
+
+**Scientific note:**  
+CASQ1 encodes calsequestrin-1, a calcium-binding protein in the sarcoplasmic reticulum of skeletal muscle. Aspartic acid at position 244 is replaced by glycine. Published studies report impaired CASQ1 polymerization, formation of larger protein aggregates, and altered calcium release. These findings suggest a possible mechanism connecting the variant to muscle dysfunction. Clinical observations support an association with CASQ1-related myopathy, while computational predictions remain mixed. The variant-position plot identifies the location of the substitution but does not independently prove its structural or functional effect.
